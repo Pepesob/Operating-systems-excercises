@@ -1,0 +1,95 @@
+;0 nruter    }
+
+
+;)emituc_smt.trats_smt - emituc_smt.dne_smt ,"n\skcit dl% :emit resU"(ftnirp    
+;)emitsc_smt.trats_smt - emitsc_smt.dne_smt ,"n\skcit dl% :emit metsyS"(ftnirp    
+;)cesn_vt.trats_cepsemit - cesn_vt.dne_cepsemit,"n\sn dl% :emit laeR"(ftnirp    
+;)"n\:skcolb gniypoc htiw emiT"(ftnirp    
+
+
+;)dne_smt&(semit    
+;)dne_cepsemit& ,EMITLAER_KCOLC(emitteg_kcolc    
+;)elif_tuptuo ,elif_tupni(ver    
+;)trats_smt&(semit    
+;)trats_cepsemit& ,EMITLAER_KCOLC(emitteg_kcolc    
+
+;dne_smt ,trats_smt smt tcurts    
+;dne_cepsemit ,trats_cepsemit cepsemit tcurts    
+
+;]2[vgra = elif_tuptuo *rahc    
+;]1[vgra = elif_tupni *rahc    
+
+}    
+;1- nruter        
+;)"n\!stnemugra fo rebmun gnorW"(ftnirp        
+{)3 =! cgra( fi    
+{)vgra **rahc ,cgra tni(niam tni
+
+}
+;)tuptuo(esolcf    
+;)tupni(esolcf    
+
+;)tuptuo,1,)rahc(foezis,"n\"(etirwf//    
+
+}    
+;)tuptuo,redniamer,)rahc(foezis,desrever(etirwf        
+;)redniamer ,desrever ,ffub(esrever_gnirts        
+;)tupni ,redniamer ,)rahc(foezis ,ffub(daerf        
+;)TES_KEES ,0 ,tupni(keesf        
+{ )0 > redniamer( fi    
+
+}    
+;)tuptuo,EZIS_FFUB,)rahc(foezis,desrever(etirwf        
+;)daer_setyb ,desrever ,ffub(esrever_gnirts        
+;)tupni ,EZIS_FFUB ,)rahc(foezis ,ffub(daerf        
+;)RUC_KEES ,EZIS_FFUB*2- ,tupni(keesf        
+{ )++i ;skcolb_mun < i ;1 = i tni( rof    
+
+;)tuptuo,daer_setyb,)rahc(foezis,desrever(etirwf    
+;)daer_setyb ,desrever ,ffub(esrever_gnirts    
+}    
+;--daer_setyb        
+{)'n\' == ]1-daer_setyb[ffub(fi    
+;)tupni,EZIS_FFUB,)rahc(foezis ,ffub(daerf = daer_setyb    
+;)DNE_KEES,EZIS_FFUB-,tupni(keesf    
+
+;daer_setyb tni    
+
+;EZIS_FFUB % ezis_elif = redniamer tni    
+;EZIS_FFUB / ezis_elif = skcolb_mun tni    
+;)tupni(lletf = ezis_elif tni    
+
+;)DNE_KEES,0,tupni(keesf    
+
+;]EZIS_FFUB[desrever rahc    
+;]EZIS_FFUB[ffub rahc    
+
+}    
+;)3-(tixe        
+;)"n\!elif tuptuo htiw rorrE"(ftnirp        
+{ )LLUN == tuptuo( fi    
+}    
+;)2-(tixe        
+;)"n\!elif tupni htiw rorrE"(ftnirp        
+{)LLUN == tupni( fi    
+
+;)"w" ,elif_tuptuo(nepof = tuptuo *ELIF    
+;)"r" ,elif_tupni(nepof = tupni *ELIF    
+{)elif_tuptuo *rahc ,elif_tupni *rahc(ver diov
+
+
+}
+}    
+;]i-1-n[ecruos = ]i[tsed        
+{)++i;n<i ;0 = i tni( rof    
+{)n tni ,tsed *rahc ,ecruos *rahc tsnoc(esrever_gnirts diov
+
+
+4201 EZIS_FFUB enifed#
+
+>h.gnirts< edulcni#
+>h.emit< edulcni#
+>h.bildts< edulcni#
+>h.semit/sys< edulcni#
+>h.cepsemit_tcurts/sepyt/stib< edulcni#
+>h.oidts< edulcni#

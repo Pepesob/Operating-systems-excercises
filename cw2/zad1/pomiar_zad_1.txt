@@ -1,0 +1,9 @@
+Time with system functions:
+Real time: 60300 ns
+System time: 0 ticks
+User time: 0 ticks
+1024
+Time with library functions:
+Real time: 61700 ns
+System time: 0 ticks
+User time: 0 ticks

@@ -1,0 +1,8 @@
+Time with copying one by one:
+Real time: 282700 ns
+System time: 0 ticks
+User time: 0 ticks
+Time with copying blocks:
+Real time: 40200 ns
+System time: 0 ticks
+User time: 0 ticks
